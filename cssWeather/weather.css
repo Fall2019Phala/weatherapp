@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body {min-height:100%;}
+
+body {
+    background-image: url("../imagesPexels/cloudySkies2.jpg");
+	background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.title,.form-control,.btn {
+	font-family:'Nunito', sans-serif;
+}
+
+.cityInput,.tempInput,.conditionInput {
+	font-family: 'Oswald', sans-serif;
+}
+
+.tempInput {
+	color: #084877;
+}
+
+.btn {
+	color:#084877;
+	background-color:#DCF7FB;
+}
+
+.city {
+        background-color: #037CAB;
+        padding: 20px 0px;
+		text-align: center;
+		margin-bottom: 4px;
+}
+
+
+.cityInput {
+	color:white;
+	text-shadow: 2px 2px 8px #084877;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+.cityInput {
+		  margin-top: 200px;
+	font-size: 60px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+.cityInput {
+		  margin-top: 100px;
+	font-size: 50px;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+.cityInput {
+		  margin-top: 100px;
+	font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+  .cityInput {
+	  margin-top: 100px;
+	  padding-top: 100px;
+      font-size: 50px;
+	  font-weight: bold;
+      
+  }
+}
+
+
+.tempInput {
+	color:white;
+	text-shadow: 2px 2px 8px #084877;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+.tempInput{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-size: 60px;
+	}
+}
+
+
+@media screen and (max-width: 992px) {
+.tempInput{
+	margin-top: 70px;
+	margin-bottom: 70px;
+	font-size: 50px;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+.tempInput{
+	margin-top: 60px;
+	margin-bottom: 60px;
+	font-size: 50px;
+	}
+}
+
+
+@media screen and (max-width: 576px) {
+.tempInput{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 50px;
+	}
+}
+
+.conditionInput {
+	color:white;
+	text-shadow: 2px 2px 8px #084877;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+.conditionInput {
+	font-size: 60px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+.conditionInput {
+	font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+.conditionInput {
+	font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+.conditionInput {
+	font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+.btn {
+	color: #084877;
+	font-size: 18px;
+	/*text-shadow: 2px 2px 8px #084877;*/
+	text-align: center;	
+}
+}
+
+
+@media screen and (max-width: 992px) {
+.btn {
+	color: #084877;
+	font-size: 20px;
+	text-align:left;
+	
+}
+}
+
+@media screen and (max-width: 768px) {
+.btn {
+	color: #084877;
+	font-size: 20px;
+}
+}
+
+@media screen and (max-width: 576px) {
+.btn {
+	color: #084877;
+	font-size: 15px;
+	
+	
+}
+}
+
+@media screen and (max-width: 1200px) {
+  .title {
+	  margin-top: 60px;
+      font-size: 55px;
+      color: white;
+	  text-align: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .title {
+	  margin-top: 60px;
+      font-size: 55px;
+      color: white;
+	  text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+	  margin-top: 60px;
+      font-size: 55px;
+      color: white;
+	  text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .title {
+	  margin-top: 45px;
+      font-size: 29px;
+      color: white;
+	  text-align: center;
+  }
+}
