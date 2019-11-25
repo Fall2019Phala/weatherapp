@@ -46,10 +46,9 @@ $("#search_btn").click(function () {
         var city = responseFromOW.name;
         var description = responseFromOW.weather[0].main;
         
-        temp.toFixed(0);
-        
+    
         $('#city').html(responseFromOW.name);
-        $('#temp').html(temp + ' ºF');
+        $('#temp').html(temp.toFixed(0) + ' ºF');
         $('#description').html(description);
 
         if (responseFromOW.weather[0].main === "Clouds") {
